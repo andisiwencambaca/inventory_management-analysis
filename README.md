@@ -1,8 +1,5 @@
 # Inventory Management Analysis
-
-
-## Problem Statement:
-Efficient inventory management is crucial for balancing supply and demand while minimising costs. The goal is to uncover actionable insights that enhance inventory operations and decision-making.
+This project analyses an inventory management dataset using SQL and Tableau. The goal is to evaluate stock health, supplier performance, and inventory value distribution to identify potential restocking risks and procurement inefficiencies.
 
 ## Data Sources:
 The data source comes from the [ZoomCharts FP20 Analytics April 2025 Challenge](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/fp20-analytics-april-2025).
