@@ -2,7 +2,8 @@
 SELECT 
     EXTRACT(MONTH FROM last_restock_date) AS month_num,
     to_char(last_restock_date, 'Month') AS month_name,
+    EXTRACT(year FROM last_restock_date) AS year,
     count(product_id) AS monthly_quantity
 FROM inventory
-GROUP BY month_num, month_name
-ORDER BY month_num;
+GROUP BY year, month_num, month_name
+ORDER BY year, month_num;
